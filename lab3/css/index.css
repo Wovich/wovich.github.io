@@ -1,0 +1,54 @@
+p{
+    font-style: italic;
+    font-size: 14px;
+    background: aqua;
+    border: 4px dashed black;
+    margin: 0;
+    padding: 0.5%;
+}
+.Voodoo{
+    background: red;
+    border: 4px solid black;
+    margin-bottom: 0px;
+}
+
+.Smoke{
+    background: brown;
+    border: 4px solid black;
+    margin-bottom: 0px;
+}
+.Master{
+    background: yellow;
+    border: 4px solid black;
+    margin-bottom: 0px;
+
+}
+
+
+@media screen and (min-width: 993px) {
+    .Head{
+        float: left;
+        width: 30%;
+        margin-right: 15px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .Head{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .Inner1{
+        float: left;
+        width: 48%;
+        margin-right: 15px;
+    }
+    .Inner2{
+        float: left;
+        width: 48%;
+    }
+    .Inner3{
+        float: left;
+        width: 98%;
+    }
+}
