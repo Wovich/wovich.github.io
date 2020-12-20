@@ -1,0 +1,72 @@
+.bdd{
+    font-style: italic;
+    font-family: "Brandon Grotesque", serif;
+    font-weight: 300;
+    background-size: cover;
+    margin: 0;
+    background-image: url("./image/back1.jpeg");
+
+}
+.navbar{
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 30px 30px 30px 30px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eeeeee;
+
+}
+.top{
+    float: left;
+}
+
+.tpb{
+    display: block;
+    color: #111111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 4px solid #dddddd;
+
+}
+.tpb:hover{
+    color: black;
+    background-color: #dddddd;
+}
+.bgb{
+    display: block;
+
+    margin: auto;
+    margin-top: 250px;
+    font-weight: 600;
+    text-align: center;
+    background: rgba(0,0,0, 0.7);
+}
+
+
+.prt{
+
+    font-size: 42px;
+    font-style: italic;
+    color: white;
+
+}
+.btn{
+    background-color: #2BC016;
+    display: block;
+    font-size: 20px;
+    color: white;
+    padding: 6px 8px;
+    text-decoration: none;
+    width: 180px;
+    border-radius: 9px 9px 9px 9px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.btn:hover{
+    color: white;
+    background-color: #26A96C;
+    text-decoration: none;
+}

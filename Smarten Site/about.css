@@ -1,0 +1,27 @@
+.navbar{
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 30px 30px 30px 30px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eeeeee;
+
+}
+.top{
+    float: left;
+}
+
+.tpb{
+    display: block;
+    color: #111111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 4px solid #dddddd;
+
+}
+.tpb:hover{
+    color: black;
+    background-color: #dddddd;
+}
