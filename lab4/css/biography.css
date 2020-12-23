@@ -1,0 +1,155 @@
+h1{
+    text-align: center;
+    font-size: 22px;
+}
+.back{
+    font-style: italic;
+}
+.list{
+    text-align: center;
+}
+.button{
+    line-height: 2.3;
+    font-weight: 750;
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 25px;
+    background: blue;
+    box-shadow: 0 -4px dodgerblue inset;
+    transition: 0.3s;
+}
+.button:hover {
+    background: magenta;
+    box-shadow: none;
+
+}
+.button:active {
+    background: yellow;
+}
+.liu{
+    list-style-type: none;
+}
+ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+.s1{
+    font-size: 120%;
+}
+.s1,h2{
+    font-size: 120%;
+}
+.backto{
+    font-weight: 670;
+}
+.top{
+    text-transform: uppercase;
+}
+article{
+    font-size: 120%;
+    padding: 5px;
+}
+h2{
+    font-size: 1.8em;
+}
+.list{
+    font-weight: 600;
+}
+#basic{
+    background: #10ff12;
+    color: #ff3302;
+    border: 1px solid black;
+}
+#child{
+    background: yellow;
+    color: black;
+    border: 1px solid black;
+}
+#school{
+    background: red;
+    color: darkblue;
+    border: 1px solid black;
+}
+#outschool{
+    background: darkgreen;
+    color: yellow;
+    border: 1px solid black;
+}
+#univer{
+    background: black;
+    color: white;
+    border: 1px solid black;
+}
+#up{
+    text-transform: uppercase;
+}
+
+
+
+@media screen and (min-width: 993px){
+    .c1{
+        width: 33.33%;
+        float: left;
+    }
+    .c2{
+        width: 33.33%;
+        float: left;
+    }
+    .c3{
+        width: 33.33%;
+        float: left;
+    }
+    .c4{
+        width: 50%;
+        float: left;
+    }
+    .c5{
+        width: 50%;
+        float: left;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .c1{
+        width: 50%;
+        float: left;
+    }
+    .c2{
+        width: 50%;
+        float: left;
+    }
+    .c3{
+        width: 50%;
+        float: left;
+    }
+    .c4{
+        width: 50%;
+        float: left;
+    }
+    .c5{
+        width: 100%;
+        float: left;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 768px){
+    .c1{
+        width: 100%;
+        float: left;
+    }
+    .c2{
+        width: 100%;
+        float: left;
+    }
+    .c3{
+        width: 100%;
+        float: left;
+    }
+    .c4{
+        width: 100%;
+        float: left;
+    }
+    .c5{
+        width: 100%;
+        float: left;
+    }
+}

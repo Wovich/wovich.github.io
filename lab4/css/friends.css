@@ -1,0 +1,62 @@
+.head{
+    text-align: center;
+    font-size: 22px;
+}
+.back{
+    font-style: italic;
+}
+.head2{
+    text-align: center;
+}
+th{
+    text-align: center;
+    background-color: green;
+    color: yellow;
+    border: 2px solid;
+    margin: 2px 2px 2px 2px;
+
+}
+table{
+    border: 2px solid;
+
+}
+table tr:nth-child(odd){
+    background-color: gray;
+}
+td{
+    border: 2px solid;
+    margin: 2px 2px 2px 2px;
+    text-align: center;
+
+}
+table tr {
+    border: 2px solid;
+    margin: 2px 2px 2px 2px;
+    text-align: center;
+}
+
+
+@media (min-width: 993px){
+    th{
+        font-size: 130%;
+    }
+    td{
+        font-size: 120%;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px){
+    th{
+        font-size: 120%;
+    }
+    td{
+        font-size: 110%;
+    }
+}
+@media (max-width: 768px){
+    th{
+        font-size: 110%;
+    }
+    td{
+        font-size: 100%;
+    }
+}
