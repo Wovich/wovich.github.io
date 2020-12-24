@@ -1,0 +1,66 @@
+.Head1{
+    text-align: center;
+    font-size: 24px;
+}
+p{
+    font-size: 120%;
+}
+.cl1:visited{
+    color: red;
+}
+.cl1:active{
+    color: moccasin;
+}
+.cl1{
+    color:green;
+}
+.cl2:visited{
+    color: #2277ff;
+}
+.cl2:active{
+    color: #ff3302;
+}
+.cl2{
+    color:#10ff12;
+}
+.cl3:visited{
+    color: gold;
+}
+.cl3:active{
+    color: purple;
+}
+.cl3{
+    color:aquamarine;
+}
+.cl4:visited{
+    color: rebeccapurple;
+}
+.cl4:active{
+    color: greenyellow;
+}
+.cl4{
+    color:firebrick;
+}
+
+
+@media (min-width: 993px) {
+a{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+    }
+@media (min-width: 769px) and (max-width: 992px){
+    a{
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
+}
+@media (max-width: 768px){
+    a{
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+} 

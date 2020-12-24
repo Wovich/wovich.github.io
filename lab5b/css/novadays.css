@@ -1,0 +1,52 @@
+.head{
+    text-align: center;
+    font-size: 22px;
+}
+.back{
+    font-style: italic;
+}
+.head2{
+    text-align: center;
+}
+ul li:nth-child(odd){
+    background-color: grey;
+}
+ol li:nth-child(3), ol li:nth-child(5) {
+    cursor: pointer;
+}
+ol li:nth-child(4){
+    background-color: #60ff00;
+}
+@media (min-width: 993px){
+    .list1{
+        display: block;
+        width: 50%;
+        float: left;
+    }
+    .list2{
+        display: block;
+        width: 50%;
+        float: left;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    .list1{
+        width: 50%;
+        float: left;
+    }
+    .list2{
+        width: 50%;
+        float: left;
+    }
+}
+@media (max-width: 768px){
+    .list1{
+        width: 100%;
+        float: left;
+    }
+    .list2{
+        width: 100%;
+        float: left;
+    }
+}
