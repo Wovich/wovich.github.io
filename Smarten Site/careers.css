@@ -1,3 +1,17 @@
+html {
+    height: 100%;
+}
+
+body{
+    font-style: italic;
+    font-family: "Brandon Grotesque", serif;
+    font-weight: 300;
+    margin: 0;
+     background:-moz-linear-gradient(top, white 55%, lightgray);
+     background:-webkit-linear-gradient(top, white 55%, lightgray);
+     background: linear-gradient(white, #c2c2c2);
+     background-size: cover;
+ }
 .navbar{
     margin-left: 8px;
     margin-right: 8px;
@@ -7,9 +21,11 @@
     overflow: hidden;
     background-color: #eeeeee;
 
+
 }
 .top{
     float: left;
+
 }
 
 .tpb{

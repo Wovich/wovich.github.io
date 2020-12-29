@@ -1,3 +1,9 @@
+.head{
+    font-style: italic;
+    font-family: "Brandon Grotesque", serif;
+    font-weight: 300;
+}
+
 .navbar{
     margin-left: 8px;
     margin-right: 8px;
@@ -10,6 +16,7 @@
 }
 .top{
     float: left;
+
 }
 
 .tpb{
@@ -25,3 +32,4 @@
     color: black;
     background-color: #dddddd;
 }
+

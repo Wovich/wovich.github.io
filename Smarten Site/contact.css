@@ -1,3 +1,22 @@
+html {
+    height: 100%;
+}
+body{
+    background-size: cover;
+    border: 0;
+    margin: 0;
+    background:-moz-linear-gradient(top, white 55%, lightgray);
+    background:-webkit-linear-gradient(top, white 55%, lightgray);
+    background: linear-gradient(white, #c2c2c2);
+}
+
+.head{
+    font-style: italic;
+    font-family: "Brandon Grotesque", serif;
+    font-weight: 300;
+    margin: 0;
+}
+
 .navbar{
     margin-left: 8px;
     margin-right: 8px;
@@ -25,3 +44,14 @@
     color: black;
     background-color: #dddddd;
 }
+.bd{
+    font-style: italic;
+    font-family: "Brandon Grotesque", serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.bd p {
+    font-size: 1.3em;
+}
+

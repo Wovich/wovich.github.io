@@ -1,7 +1,7 @@
 .bdd{
-    font-style: italic;
-    font-family: "Brandon Grotesque", serif;
-    font-weight: 300;
+    font-style: normal;
+    font-family: "Redressed", serif;
+    font-weight: 100;
     background-size: cover;
     margin: 0;
     background-image: url("./image/back1.jpeg");
@@ -15,6 +15,9 @@
     padding: 0;
     overflow: hidden;
     background-color: #eeeeee;
+    font-style: italic;
+    font-family: "Brandon Grotesque", serif;
+    font-weight: 300;
 
 }
 .top{
@@ -35,11 +38,15 @@
     background-color: #dddddd;
 }
 .bgb{
-    display: block;
+    font-size: 1.2em;
 
-    margin: auto;
-    margin-top: 250px;
-    font-weight: 600;
+    display: flow;
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    top: 45%; bottom: 26%; left:0; right: 0;
+
+    font-weight: 100;
     text-align: center;
     background: rgba(0,0,0, 0.7);
 }
