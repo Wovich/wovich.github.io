@@ -1,0 +1,57 @@
+body{
+    background-color: #093824;
+    text-align: center;
+    margin: 0;
+    font-family: Mukta,Serif;
+}
+
+.header {
+    color: #78FECF;
+    margin: 35px 0 45px 0;
+    padding: 30px 0px 10px 0px;
+    font-size: 55px;
+}
+#Funny{
+    color: #78FECF;
+    font-size: 16px;
+}
+
+#password{
+    background-color: #78FECF;
+    text-align: center;
+    font-size: 45px;
+
+    width: 100%;
+    padding: 50px 0px 60px 0px;
+    outline: none;
+    border: none;
+
+}
+
+#password::placeholder{
+    color: #093824;
+    caret-color : #78FECF;
+
+
+}
+#password:active, #password :hover,#password :focus {
+    outline: none;
+    border: none;
+    caret-color : #093824;
+    color: #093824;
+
+}
+.progressbar{
+    background-color: #C6CCB2;
+    padding: 5px 10px;
+    width:480px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+#bard{
+    background-color: #BF4E30;
+    max-width: 480px;
+    border-radius: 15px;
+
+}
