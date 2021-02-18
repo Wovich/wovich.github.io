@@ -1,0 +1,71 @@
+body{
+    font-style: italic;
+    font-family: "Brandon Grotesque", serif;
+    font-weight: 300;
+    margin: 0;
+     background:-moz-linear-gradient(top, white 55%, lightgray);
+     background:-webkit-linear-gradient(top, white 55%, lightgray);
+     background: linear-gradient(white, #c2c2c2);
+     background-size: cover;
+
+ }
+.navbar{
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 30px 30px 30px 30px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eeeeee;
+
+
+}
+.top{
+    float: left;
+
+}
+
+.tpb{
+    display: block;
+    color: #111111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 4px solid #dddddd;
+
+}
+.tpb:hover{
+    color: black;
+    background-color: #dddddd;
+}
+.aaa{
+    margin-left: 8px;
+    margin-right: 8px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    font-size: 2em;
+}
+
+#nyd{
+    margin-left: 8px;
+    margin-right: 8px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+#ard{
+    margin-left: 8px;
+    margin-right: 8px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    font-size: 1.3em;
+}
+
+.pd{
+    margin-bottom: 45px;
+}

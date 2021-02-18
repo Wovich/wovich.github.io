@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="fonts.css">
+</head>
+<body>
+<div class="head">
+
+    <ul class="navbar">
+        <li class="top"><a class="tpb" href="index.html">HOME</a></li>
+        <li class="top"><a class="tpb" href="about.html">ABOUT US</a></li>
+        <li class="top"><a class="tpb" href="careers.html">CAREERS</a></li>
+        <li class="top"><a class="tpb" href="contact.html">CONTACTS</a></li>
+    </ul>
+</div>
+<div id="bdd" class="bd">
+    <h1>Company email:</h1>
+    <p>email@smar10.com</p>
+    <h1>Phone number:</h1>
+    <p>
+        (773)820-7796
+    </p>
+    <h1>Fax:</h1>
+    <p>
+        (773)305-5546
+    </p>
+    <h1>Dispatch email:</h1>
+    <p>dispatch@smar10.com</p>
+    <h1>Accounting email:</h1>
+    <p>accounting@smar10.com</p>
+    <h1>Safety email:</h1>
+    <p>safety@smar10.com</p>
+
+
+    <p><button class="btn" onclick="show()">Contact us</button>
+</div>
+    <div id="checked">
+        <p class="body_d"><button class="btn2" onclick="show2()">✖</button>
+        <script  type="text/javascript" src="https://form.jotform.com/jsform/203538365669063"></script>
+    </div>
+    <script>
+        document.getElementById("checked").style.display = "none";
+        function show() {
+                document.getElementById("checked").style.display = "block";
+                document.getElementById("bdd").style.display = "none";
+
+            }
+            function show2() {
+                document.getElementById("checked").style.display = "none";
+                document.getElementById("bdd").style.display = "block";
+
+            }
+        </script>
+
+</body>
+</html>
