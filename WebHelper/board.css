@@ -1,0 +1,17 @@
+
+.basic{
+    background-color: #dfd8d8;
+    border: 6px solid #2e00f3;
+    border-radius: 25px;
+    padding: 52px 15px 52px 15px;
+    height: 220px;
+    width: 220px;
+    float: left;
+
+}
+.block_a{
+    text-align: center;
+    display: inline-block;
+    margin: 15px 15px 15px 15px;
+
+}
