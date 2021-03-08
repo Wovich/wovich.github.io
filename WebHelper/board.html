@@ -20,27 +20,23 @@
             <li><a href="files.html"> Files</a></li>
         </ul>
     </div>
-    <div class="main_content">
+    <div id="box2" style="display: block" class="main_content">
 
         <div class="header">Here will be blocks with links that dispatch wants to add</div>
         <div class="container-fluid">
             <div class="col-xl-2 col-lg-4 col-md-8 block_a">
-                <article class="basic">
-                    <p>Here is content1
-                    </p>
-                </article>
+                    <a class="basics" href="#" onclick="openbox('box'); openbox('box2'); return false">
+                        <div class="aa">+</div>
+                    </a>
+            </div>
+
+            <div class="col-xl-2 col-lg-4 col-md-8 block_a">
+
+                  <a class="z" href="https://www.google.com" target="_blank"><img src="search.png" width=90 height=90></a>
+
             </div>
             <div class="col-xl-2 col-lg-4 col-md-8 block_a">
-                <article class="basic">
-                    <p>Here is content2
-                    </p>
-                </article>
-            </div>
-            <div class="col-xl-2 col-lg-4 col-md-8 block_a">
-                <article class="basic">
-                <p>Here is content3
-                </p>
-                </article>
+                <a class="z" href="https://www.google.com" target="_blank"><br>Page name</a>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-6 block_a">
                 <article class="basic">
@@ -55,8 +51,28 @@
                 </article>
             </div>
     </div>
+
     </div>
-</div>
+    <div style="display: none;" class="col-xl-6 col-lg-6 col-md-6 opener" id="box">
+        <h1></h1>
+        <button onclick="openbox('box'); openbox('box2'); return false" class="closer">X</button>
+        <input class="name_add" type="text" placeholder="Enter the name" name="linker">
+        <input class="link_add" type="text" placeholder="Enter the link" name="linker">
+        <button class="col-xl-2 col-lg-6 col-md-6 btn">Add link</button>
+    </div>
+    </div>
+
 
 </body>
+<script type="text/javascript">
+    function openbox(id){
+        let display = document.getElementById(id).style.display;
+        if(display==='none'){
+            document.getElementById(id).style.display='block';
+        }else{
+            document.getElementById(id).style.display='none';
+        }
+    }
+</script>
+
 </html>

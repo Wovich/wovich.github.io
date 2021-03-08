@@ -3,7 +3,16 @@
     background-color: #dfd8d8;
     border: 6px solid #2e00f3;
     border-radius: 25px;
-    padding: 52px 15px 52px 15px;
+    padding: 88px 15px 52px 15px;
+    height: 220px;
+    width: 220px;
+    float: left;
+
+}
+.basics{
+    background-color: #dfd8d8;
+    border: 6px solid #2e00f3;
+    border-radius: 25px;
     height: 220px;
     width: 220px;
     float: left;
@@ -14,4 +23,77 @@
     display: inline-block;
     margin: 15px 15px 15px 15px;
 
+}
+.basics{
+    padding: 0;
+    margin: 0;
+}
+
+.basics a:hover{
+    text-decoration: none;
+}
+
+.opener{
+
+    margin: 240px auto auto;
+    border: 1px solid #09007d;
+    background-color: #e1e1e1;
+}
+.opener input{
+    width: 735px;
+    margin-top: 8px;
+    padding: 4px 12px 12px 12px;
+}
+
+.opener h1{
+    padding: 22px 22px 22px 22px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: #2e00f3;
+
+
+}
+.opener .closer{
+    float: right;
+    margin-top: -40px;
+    margin-left: 340px;
+    background-color: #2196F3;
+    border-color: #09007d;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px 0 6px;
+    border-radius: 6px;
+}
+.opener .btn{
+    margin: 8px auto 5px 13px;
+    background-color: #2196F3;
+    border-color: #09007d;
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px 2px 8px;
+    border-radius: 6px;
+    float: right;
+}
+
+.name_add{
+    margin-right: 114px;
+}
+ .z{
+    background-color: #dfd8d8;
+    border: 6px solid #2e00f3;
+    border-radius: 25px;
+     padding-top: 52px;
+     height: 220px;
+    width: 220px;
+    float: left;
+    font-size: 22px;
+ }
+
+
+.block_a a:hover{
+    text-decoration: none;
+}
+.aa {
+    font-size: 132px;
+    font-weight: bold;
 }
